@@ -10,10 +10,10 @@ $(function () {
         $(".name").html(config.name);
         $(".sex").html(config.sex);
         $(".age").html(config.age);
-        $(".phone").html(config.phone);
+        $(".twitter").html(config.twitter);
         $(".email").html(config.email);
         $(".address").html(config.address);
-        $(".qq").html(config.qq);
+        $(".wechat").html(config.wechat);
         $(".log").html(config.log);
         $(".self-intro").html(config.welcome);
         $(".me").html(config.about);
@@ -217,7 +217,7 @@ $(function () {
 
 
     // ---- 座右铭字缓出效果 -----
-    var text = "衣带渐宽终不悔，为伊消得人憔悴";
+    var text = "Let's Rolling!!!";
     var length = text.length;
     let index = 0;
     var mottoArrs = config.motto;

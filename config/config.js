@@ -1,46 +1,47 @@
 var config = {
     /*在这里配置你的基本信息，所有数据以字符串形式给出*/
-    name: "卢世荣",
-    sex: "男",
-    age: "19",
-    phone: "19870887127",
-    email: "happysnaker@foxmail.com",
-    address: "现居浙江省义乌市",
-    qq: "1637318597",
-    log: "Happysnaker",
-    excpect_work: "Java/Go后端开发",
+    name: "Xavier",
+    sex: "Man",
+    age: "28",
+    twitter: "@xavier_tjwjd",
+    email: "realx.fantastic@gmail.com",
+    address: "Netherlands",
+    wechat: "FiliusBonacci",
+    log: "Xavier",
+    excpect_work: "Single",
 
 
     /*在这里配置首页的座右铭集合*/
     motto: [
-        "明天不一定会更好，但要坚信更好的明天一定会来。",
-        "要做的事情总找得出时间和机会，不愿意做的事情也总能找得出借口。",
-        "Gor For It!",
-        "有智者立长志，无志者长立志。",
-        "那些过去的眼泪终将风干在记忆里。",
-        "真相，是为了剿灭幻想。",
-        "我欲将心向明月，奈何明月照沟渠。",
-        "春风得意马蹄疾，一日看尽长安花。",
-        "天凉好个秋！",
-        "老骥伏枥，志在千里。烈士暮年，壮心不已。",
-        "老当益壮，宁移白首之心。穷且益坚，不坠青云之志。",
-        "我们必须拿我们所有的， 去换我们所没有的",
-        "蒹葭苍苍，白露为霜；所谓伊人，在水一方。",
-        "数风流人物，还看今朝！"
+        "「為せば成る、為さねば成らぬ。何事も成らぬは人の為さぬなり」",
+        "「やってみせ、言って聞かせて、させてみせ、褒めてやらねば人は動かじ」",
+        "「是非に及ばず」",
+        "「面白きこともなき世を面白く住みなすものは心なりけり」",
+        "「夢なき者に成功なし」",
+        "「精神的に向上心のない者は馬鹿だ」",
+        "「未来が其の胸中に在る者　之を青年と云う　過去が其の胸中に在る者　之を老年と云う」",
+        "「失敗の責任は主君に、成功の功績は家臣に」",
+        "「おこないはおれのもの。批判は他人のもの、おれの知ったことじゃない」",
+        "「丸くとも一かどあれや　人心　あまりまろきはころびやすきぞ」",
+        "「私がしているのは決して大きなことではないが、必要なことなのだ」",
+        "「世界全体が幸福にならないかぎりは、個人の幸福はありえない」",
+        "「弱虫は、幸福をさえおそれるものです。綿で怪我するんです。幸福に傷つけられる事もあるんです」",
+        "「この世に客に来たと思えば何の苦もなし」",
+        "「背伸びして視野をひろげているうち、背が伸びてしまうこともあり得る。それが人生の面白さである」",
+        "「千日の稽古をもって鍛となし、万日の稽古をもって錬となす」"
     ],
 
 
     /*在这里配置首页的见面信息，你可以内嵌HTML标签以调整格式*/
-    welcome: "青青子衿，悠悠我心<br>" +
-             "但为君故，沉吟至今<br>" +
-             "你好，我是卢世荣，南昌大学软件工程大二在读生<br>" +
-             "很高兴见到你!",
+    welcome: "If you read my bio, you might want know me, <br>" +
+             "why don't we have a chat, <br>" +
+             "we gonna know each other more.",
 
 
     /*在这里配置关于我的信息，你可以内嵌HTML标签以调整格式*/
-    about: "<p>你好！我叫卢世荣，性别男，南昌大学软件学院大二在读。我期望的工作岗位是Go/Java后端开发。</p>" +
-        "<p>我有着较多的Java编程经验，计算机基础知识掌握扎实，能够在工作中很好的完成自己的任务。此外，我有着充满激情的工作态度，团队协同作战能力强，同时我也具备独立开发的能力，擅于发现并解决问题。我的执行力强、责任感高、集体荣誉感强、敢于担当，能够接受加班或出差等安排</p>" +
-        "<p>十分期待与您的联系!</p>",
+    about: "<p>I'm a web2 and web3 developer, </p>" +
+        "<p>not an expert investor, </p>" +
+        "<p>and I'm trying to learn Japanese.</p>",
 
 
 
@@ -49,28 +50,22 @@ var config = {
     * ["技能点", 掌握程度, "技能条颜色"]
     */  
     skills: [
-        ["Java", 80, "red"],
-        ["GoLang", 77, "blue"],
-        ["SQL", 75, "#1abc9c"],
-        ["HTML5", 67, "rgba(0,0,0)"],
-        ["CSS3", 60, "yellow"],
-        ["JavaScript", 70, "pink"]
+        ["Web2 develop", 80, "green"],
+        ["Web3 develop", 40, "blue"],
+        ["Invest", 20, "#1abc9c"],
+        ["Japanese", 30, "rgba(0,0,0)"],
+        ["Discord operation", 50, "yellow"],
+        ["Drink", 100, "red"]
     ],
 
 
     /*这里填写你的技能描述，你可以内嵌HTML标签以调整格式*/
     skills_description: "<ul>" +
-        "     <li>操作系统、计算机网络等编程基础知识良好。</li>" +
-        "     <li>熟练掌握Java基础。</li>" +
-        "     <li>熟悉JavaIO、多线程、集合等基础框架。</li>" +
-        "     <li>了解JVM原理。</li>" +
-        "     <li>熟悉Go语言开发基本知识。</li>" +
-        "     <li>熟悉SQL语句编写以及调优。</li>" +
-        "     <li>熟悉基本Linux命令操作。</li>" +
-        "     <li>熟悉Spring、ibatis、struts等框架的使用，了解其原理与机制。</li>" +
-        "     <li>熟悉缓存、消息等机制。</li>" +
-        "     <li>了解分布式系统的设计与应用。</li>" +
-        "     <li>熟悉HTML、CSS、JavaScript以及相应前端知识。</li>" +
+        "     <li>One-stop construction of domain names, servers, and website frameworks.</li>" +
+        "     <li>Discord community operation.</li>" +
+        "     <li>There is no end to the continuous study of Japanese. . .</li>" +
+        "     <li>Investing in continuous learning has no end. . .</li>" +
+        "     <li>I could keep drinking all night long without end. . .</li>" +
         " </ul>",
 
 
@@ -116,10 +111,10 @@ var config = {
      * 建议填写您的校级及以上得奖经历或或其他证书
      */
     others: [
-        ["2021-04-28", "第十二届蓝桥杯大学生A组省三等奖", "大一下学期，我参与第十二届蓝桥杯大学生A组，然比赛一改以往暴力题，半数以上DP，仅取得省级三等奖。"],
-        ["2021-04-24", "第六届团队程序设计天梯赛个人国家三等奖", "大一下学期，我通过面向全年级的选拔，获得入队名额，在个人赛中获得全国三等奖。"],
-        ["2021-04-24", "第六届团队程序设计天梯赛团体国家二等奖", "大一下学期，我通过面向全年级的选拔，获得入队名额，跟随团队取得团体国家二等奖的成绩。"],
-        ["2020-11-14", "2020级南昌大学程序设计正式赛三等奖", "大一上学期，我参与校举办的面向全校程序设计大赛并获得三等奖，"]
+        ["2021-03-27", "Invest", "Invested in blockchain."],
+        ["2021-05-30", "Invest", "Invested in ENS。"],
+        ["2021-05-31", "Invest", "Invested in NFTs。"],
+        ["2022-05-20", "web2", "https://서정.xyz/ Officially online."]
     ],
 
 
