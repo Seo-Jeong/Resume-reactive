@@ -2,9 +2,7 @@ function addScript(url) {
     document.write("<script language=javascript src=./config/config.js></script>");
 }
 addScript();
-//不使用配置文件请注释点上面代码
 
-//星光依旧灿烂，激情仍然燃烧。因为有梦想，所以我存在。你在你的领域里不惜青春，我在我的道路上不知疲倦。
 $(function () {
     if (config) {
         $(".name").html(config.name);
@@ -13,7 +11,7 @@ $(function () {
         $(".twitter").html(config.twitter);
         $(".email").html(config.email);
         $(".address").html(config.address);
-        $(".wechat").html(config.wechat);
+        $(".line").html(config.line);
         $(".log").html(config.log);
         $(".self-intro").html(config.welcome);
         $(".me").html(config.about);
@@ -74,7 +72,7 @@ $(function () {
                 e.append("<div class=\"col-md-4\">\n" +
                     "    <div class=\"porfolio-image img-raised\" data-aos=\"fade-up\"\n" +
                     "         data-aos-anchor-placement=\"top-bottom\">\n" +
-                    "        <a href=\"" + url + "\" title=\"点击查看详细信息\">\n" +
+                    "        <a href=\"" + url + "\" title=\"\">\n" +
                     "            <figure class=\"portfolio-section-main\">\n" +
                     "                <img src=\"" + img + "\" alt=\"Image\" />\n" +
                     "                <figcaption>\n" +
@@ -151,7 +149,7 @@ $(function () {
                 let url = config.icon[i][1];
                 let desc = config.icon[i][2];
                 $(".icon-insert").append(
-                    "<a class=\"my-tooltip\" href=\"" + url + "\" title=\"访问我的社交平台\">\n" +
+                    "<a class=\"my-tooltip\" href=\"" + url + "\" title=\"\">\n" +
                     "    <img src=\"" + img + "\" alt=\"\">\n" +
                     "    <span class=\"my-tooltiptext\">" + desc + "</span>\n" +
                     "</a>"
@@ -207,16 +205,12 @@ $(function () {
 
         content = content.replace(new RegExp('\n', 'g'), '%0d%0a');
 
-        // if (confirm("你确定要向" + who + "放送邮件吗?") == true) {
-        //     location="mailto:sample@fly63.com?subject=test&cc=sample@hotmail.com&subject=主题&body=内容";
-        // }
         location = "mailto:" + config.email + "?subject=" + subject + "&body=" + content;
     }
 
 
 
 
-    // ---- 座右铭字缓出效果 -----
     var text = "Let's Rolling!!!";
     var length = text.length;
     let index = 0;
@@ -261,7 +255,6 @@ $(function () {
 
 
 
-    //--- 绑定按钮特效和文字淡入淡出 ---
     $(".self-intro").fadeIn(3000);
     $(".hvr-bounce-to-right").fadeIn(3000);
 
