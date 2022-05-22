@@ -59,10 +59,11 @@ var config = {
 
 
     others: [
-        ["2021-03-27", "Invest", "Invested in blockchain."],
-        ["2021-05-30", "Invest", "Invested in ENS."],
-        ["2021-05-31", "Invest", "Invested in NFTs."],
-        ["2022-05-20", "web2", "https://서정.xyz/ Officially online."]
+        ["2021", "Q1", "Invested in blockchain"],
+        ["2021", "Q2", "Invested in ENS"],
+        ["2021", "MAY", "Invested in NFTs"],
+        ["2022", "05-20", "Launch of the Web2"],
+        ["2022", "TBD", "Launch of the Web3"]
     ],
 
     url: [
