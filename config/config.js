@@ -3,7 +3,7 @@ var config = {
     sex: "Man",
     age: "28",
     twitter: "@xavier_tjwjd",
-    email: "realx.fantastic@gmail.com",
+    email: "message@xavier-tjwjd.com",
     address: "Netherlands",
     line: "xavier_tjwjd",
     log: "Xavier",
@@ -63,7 +63,8 @@ var config = {
         ["2021", "Q2", "Invested in ENS"],
         ["2021", "MAY", "Invested in NFTs"],
         ["2022", "05-20", "Launch of the Web2"],
-        ["2022", "TBD", "Launch of the Web3"]
+        ["2022", "05-27", "Launch of the Blog"],
+        ["2023", "TBD", "Launch of the Web3"]
     ],
 
     url: [
