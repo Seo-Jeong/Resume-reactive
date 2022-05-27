@@ -8,6 +8,7 @@ var config = {
     line: "xavier_tjwjd",
     log: "Xavier",
     excpect_work: "Single",
+    blog: "https://xavier-tjwjd.xyz",
 
 
     motto: [
