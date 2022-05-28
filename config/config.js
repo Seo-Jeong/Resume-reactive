@@ -3,7 +3,7 @@ var config = {
     sex: "Man",
     age: "28",
     twitter: "@xavier_tjwjd",
-    email: "message@xavier-tjwjd.com",
+    email: "message@xavier-tjwjd.xyz",
     address: "Netherlands",
     line: "xavier_tjwjd",
     log: "Xavier",
